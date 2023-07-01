@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'waltographregular';
+    src: url('./fonts/waltograph42-webfont.woff2') format('woff2'),
+         url('./fonts/waltograph42-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'waltBold';
+    src: url('./fonts/waltographui-webfont.woff2') format('woff2'),
+         url('./fonts/waltographui-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'waltBold', sans-serif;
+}
