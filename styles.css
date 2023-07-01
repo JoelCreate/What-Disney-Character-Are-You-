@@ -20,4 +20,17 @@
 
 body {
     font-family: 'waltBold', sans-serif;
+    text-transform: lowercase;
+}
+
+#char-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    border: 1px solid red;
+}
+
+.char-img {
+    width: 100px;
+    height: auto;
 }
