@@ -1,6 +1,6 @@
 const characters = document.getElementById("char-list")
 
-fetch("https://api.disneyapi.dev/character")
+fetch("https://api.disneyapi.dev/character?page=3")
     .then(response => response.json())
     .then(charData => {
             const charArr = charData.data
